@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.14.3-alpine
 
 RUN apk add --no-cache python3-dev gcc musl-dev libffi-dev libpq-dev openssl-dev make && \
     apk add --no-cache redis
